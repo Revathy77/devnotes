@@ -20,7 +20,6 @@ export default function Dashboard() {
 
   useEffect(() => {
     fetchNotes();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [search, category]);
 
   const handleSave = async (form) => {
