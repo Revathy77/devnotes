@@ -1,6 +1,5 @@
 import axios from "axios";
 
-// Codespaces can't use localhost in the browser, so build the forwarded backend URL
 const getDefaultApiUrl = () => {
   const { hostname, protocol } = window.location;
   if (hostname.endsWith(".app.github.dev")) {
